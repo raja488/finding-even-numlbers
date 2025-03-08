@@ -19,3 +19,41 @@ print(fruits[len(fruits)-1])
 print(fruits [0:3])
 
 
+#print the number of items inside the fruits 
+print(len(fruits))
+#print the type of fruits
+print(type(fruits))
+#print the type of fruits tuples
+print(type(fruits_tuples))
+#print the last item of your list
+print(fruits[9])
+
+
+#pupils using different data types
+tupleExInt =(70,80,90,100)
+tupleExFlo =(70.7,80.8,90.99,100,10)
+tupleExStri=("hello","how","are","you")
+tupleExbool=(True,False)
+tupleMixedDataTypes=(70,70.7,"how",False)
+
+friends=("raja","umar","engjul","asad","ali","umar","ali","ali")
+print(friends[0:5])
+for friend in friends:
+    print(friend)
+for i in range(len(friends)):
+    print(friends[i])
+
+
+print(friends.count("umar"))
+print(friends.count("asad"))
+print(friends.count("ali"))
+
+
+
+    
+    
+    
+
+
+
+
