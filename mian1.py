@@ -49,7 +49,7 @@ print(friends.count("asad"))
 print(friends.count("ali"))
 
 
-fruits = ["strawberry", "kiwi", "banana", "lemon", "watermelon", "tomato", "orange", "berrier", "plum", "blueberry"]
+fruits = ["strawberry", "strawberry","kiwi", "banana", "lemon", "watermelon", "tomato", "orange", "berrier", "plum", "blueberry"]
 
 
 for fruit in fruits:
